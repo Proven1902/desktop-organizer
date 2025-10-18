@@ -15,8 +15,9 @@
   - Подготовлено архитектурное описание (`docs/project.md`).
   - Установлен .NET SDK 8.0.121 и создано решение `DesktopOrganizer.sln`.
   - Настроены StyleCop.Analyzers, `.editorconfig`, `stylecop.json`, локальный инструмент `dotnet-format`, обновлено решение.
+  - Реализованы модели и заглушки сервисного слоя (`DesktopScanner`, `OpenRouterClient`, `SortingEngine`, `DesktopOrganizerService`).
 - **Текущие задачи:**
-  - Проектирование и реализация базовой архитектуры (ViewModel/Services) согласно `docs/project.md`.
+  - Настройка ViewModel и UI-привязок согласно `docs/project.md`.
 - **Планы:**
   - Сформировать план разработки приложения и заполнить контексты.
 - **Риски:**

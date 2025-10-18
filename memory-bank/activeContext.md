@@ -7,8 +7,8 @@
 
 # Active Context
 
-- **Текущая задача:** Подготовка базовой структуры приложения (ViewModel/Services) после настройки окружения.
-- **Последние изменения:** Настроены StyleCop.Analyzers, `.editorconfig`, `stylecop.json`, локальный `dotnet-format`, установлен `pre-commit` и добавлен git hook, сборка проходит без ошибок.
+- **Текущая задача:** Настройка слоя ViewModel и UI-привязок для Desktop Organizer.
+- **Последние изменения:** Добавлены модели и заглушки сервисов (`DesktopScanner`, `OpenRouterClient`, `SortingEngine`, `DesktopOrganizerService`), проект успешно собирается.
 - **Риски/блокеры:** Нет текущих блокеров.
-- **Следующие шаги:** Создать каркас ViewModel/Services и обновить `docs/changelog.md`/`tasktracker.md` после реализации.
+- **Следующие шаги:** Реализовать `MainViewModel`, команды и обновить XAML; подготовить документацию и тесты.
 - **Дата последнего обновления:** 2025-10-17

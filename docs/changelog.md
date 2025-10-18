@@ -15,6 +15,7 @@
 - Создан файл `docs/tasktracker.md` с базовым шаблоном задачи.
 - Созданы файл решения `DesktopOrganizer.sln` и проект WPF `DesktopOrganizer.App`.
 - Добавлены файлы `.editorconfig`, `stylecop.json`, `.pre-commit-config.yaml`, `.gitignore`, `.config/dotnet-tools.json`.
+- Реализованы базовые модели и заглушки сервисов (`DesktopScanner`, `OpenRouterClient`, `SortingEngine`, `DesktopOrganizerService`).
 
 ### Изменено
 - Добавлены комментарии с метаданными в файлы Memory Bank и документацию `/docs`.
