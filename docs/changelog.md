@@ -13,11 +13,16 @@
 - Созданы шаблоны файлов Memory Bank для контекста проекта.
 - Создан файл `docs/changelog.md`.
 - Создан файл `docs/tasktracker.md` с базовым шаблоном задачи.
+- Созданы файл решения `DesktopOrganizer.sln` и проект WPF `DesktopOrganizer.App`.
 
 ### Изменено
 - Добавлены комментарии с метаданными в файлы Memory Bank и документацию `/docs`.
 - Зафиксирован первый push в удалённый репозиторий `origin/main`.
 - Заполнены требования и контексты в файлах Memory Bank (`projectbrief.md`, `productContext.md`, `systemPatterns.md`, `techContext.md`).
+- Добавлено архитектурное описание решения в `docs/project.md`.
 
 ### Исправлено
 - Нет.
+
+### Блокеры
+- Отсутствует установленный .NET SDK, необходимо установить для продолжения.
