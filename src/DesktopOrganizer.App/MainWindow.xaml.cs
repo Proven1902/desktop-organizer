@@ -1,23 +1,24 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+/**
+ * @file: MainWindow.xaml.cs
+ * @description: Основное окно приложения Desktop Organizer.
+ * @dependencies: MainWindow.xaml
+ * @created: 2025-10-18
+ */
 
 namespace DesktopOrganizer.App;
 
+using System.Windows;
+
 /// <summary>
-/// Interaction logic for MainWindow.xaml
+/// Представляет главное окно приложения Desktop Organizer.
 /// </summary>
 public partial class MainWindow : Window
 {
+    /// <summary>
+    /// Инициализирует новый экземпляр класса <see cref="MainWindow"/>.
+    /// </summary>
     public MainWindow()
     {
-        InitializeComponent();
+        this.InitializeComponent();
     }
 }
