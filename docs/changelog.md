@@ -17,6 +17,7 @@
 ### Изменено
 - Добавлены комментарии с метаданными в файлы Memory Bank и документацию `/docs`.
 - Зафиксирован первый push в удалённый репозиторий `origin/main`.
+- Заполнены требования и контексты в файлах Memory Bank (`projectbrief.md`, `productContext.md`, `systemPatterns.md`, `techContext.md`).
 
 ### Исправлено
 - Нет.
